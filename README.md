@@ -33,3 +33,5 @@ Mapping of facts table with factdates:-primary key(ID)
 
 #Code project file
 WebCrawler&Scrapper
+
+#NewsApi Key-7e3d2e1197dd40a88f639d8de070161a
