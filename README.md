@@ -1,37 +1,36 @@
 # Fake-News-Detection
 
-#Dataset information
--------------------------------------------------------------------------
-Files:-
-1)Opinion.xlsx
-2)Fact.xlsx
-3)factdates.xlsx
--------------------------------------------------------------------------
-Dataset creation site-The Indian Express(https://indianexpress.com)
---------------------------------------------------------------------------
-Data collected of time period:March 2021-May 2021
+---
+## Dataset information
+### For classification of opinions and facts, dataset used:
+1. Opinions.csv
 
---------------------------------------------------------------------------
-**datapoints**
-opinion-6,599
-facts-7,051
-Total-13,650
---------------------------------------------------------------------------
-facts categoery:-
-1)lifestyle 
-2)Indian News
-3)World News
-4)Entertainment
-5)Cities
-6)Technology
-7)Sports
--------------------------------------------------------------------------
-Date of facts :factdates.xls
--------------------------------------------------------------------------
-Mapping of facts table with factdates:-primary key(ID)
-------------------------------------------------------------------------
+   Number of data entries: 6,599
+   
+   The data is taken from the [The Indian Express Opinion Section](https://indianexpress.com/section/opinion/).
+2. Facts.csv
+  
+   Number of data entries: 7,051
+   
+   The dataset is created from [The Indian Express](https://indianexpress.com), under the following sections:
+   - Lifestyle
+   - Indian News
+   - World News
+   - Enterntainment
+   - Cities
+   - Technology
+   - Sports
 
-#Code project file
-WebCrawler&Scrapper
+*Data collected of time period:March 2021-May 2021*
 
-#NewsApi Key-7e3d2e1197dd40a88f639d8de070161a
+**Total number of data entries: 13,650**
+
+---
+## NewsApi:
+[News API](https://newsapi.org/) is a simple, easy-to-use REST API that returns JSON search results for current and historic news articles published by over 75,000 worldwide sources.
+
+To install it in python, use command: 
+
+> pip install newsapi-python
+
+NewsApi Key: `7e3d2e1197dd40a88f639d8de070161a`
