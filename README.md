@@ -5,9 +5,9 @@
 ### For classification of opinions and facts, dataset used:
 1. Opinions.csv
 
-   Number of data entries: 6,599
+   Number of data entries: 8,707
    
-   The data is taken from the [The Indian Express Opinion Section](https://indianexpress.com/section/opinion/).
+   The data is taken from the [The Indian Express Opinion Section](https://indianexpress.com/section/opinion/),[Hindustan Times](https://www.hindustantimes.com/opinion).
 2. Facts.csv
   
    Number of data entries: 7,051
@@ -23,7 +23,7 @@
 
 *Data collected of time period:March 2021-May 2021*
 
-**Total number of data entries: 13,650**
+**Total number of data entries: 15,126**
 
 ---
 ## NewsApi:
